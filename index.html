@@ -3,76 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Mini Web App</title>
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Mini Web App 🚀</h1>
+    <h1>Mini Web App 🚀</h1>
 
-      <!-- PROFIL -->
-      <div class="section profil">
-        <h2>Profil Saya</h2>
+    <h2>Profil Saya</h2>
 
-        <img src="https://i.pravatar.cc/150?img=5" alt="Foto Profil" />
+    <img src="img/ervina.jpg" alt="Foto Profil" />
 
-        <p><b>Nama:</b> Ervina Kartika Sari</p>
+    <p><b>Nama:</b> Ervina Kartika Sari</p>
 
-        <p>Saya sedang belajar Web Modern 🔥</p>
+    <p>Saya sedang belajar Web Modern 🔥</p>
 
-        <h3>Website Favorit</h3>
+    <h2>Website Favorit</h2>
 
-        <a href="https://google.com" target="_blank"> 🌐 Kunjungi Google </a>
-      </div>
+    <a href="https://www.google.com" target="_blank"> 🌐 Kunjungi Google </a>
 
-      <!-- INPUT NAMA -->
-      <div class="section">
-        <h2>Masukkan Nama</h2>
+    <h2>Masukkan Nama</h2>
 
-        <input type="text" id="namaInput" placeholder="Ketik nama..." />
+    <input type="text" id="namaInput" placeholder="Masukkan nama" />
 
-        <button onclick="tampilkanNama()">Tampilkan</button>
+    <button onclick="tampilkanNama()">Tampilkan</button>
 
-        <p id="hasilNama"></p>
-      </div>
+    <p id="hasilNama"></p>
 
-      <!-- HOBI -->
-      <div class="section">
-        <h2>Daftar Hobi</h2>
+    <h2>Daftar Hobi</h2>
 
-        <input type="text" id="hobiInput" placeholder="Masukkan hobi" />
+    <input type="text" id="hobiInput" placeholder="Masukkan hobi" />
 
-        <button onclick="tambahHobi()">Tambah</button>
+    <button onclick="tambahHobi()">Tambah</button>
 
-        <button onclick="hapusSemua()">Hapus Semua</button>
+    <button onclick="hapusSemua()">Hapus Semua</button>
 
-        <ul id="listHobi"></ul>
-      </div>
+    <ul id="listHobi"></ul>
 
-      <!-- REALTIME -->
-      <div class="section">
-        <h2>Ketik Real-Time</h2>
+    <h2>Ketik Real-Time</h2>
 
-        <input type="text" id="inputKetik" placeholder="Ketik sesuatu..." />
+    <input type="text" id="realtimeInput" placeholder="Ketik sesuatu" />
 
-        <p id="output"></p>
-      </div>
-
-      <!-- API -->
-      <div class="section">
-        <h2>Data User API</h2>
-
-        <input type="text" id="searchInput" placeholder="Cari user..." />
-
-        <p id="loading">Loading...</p>
-
-        <p id="error"></p>
-
-        <ul id="dataUser"></ul>
-      </div>
-    </div>
+    <p id="hasilRealtime"></p>
 
     <script src="js/script.js"></script>
   </body>
